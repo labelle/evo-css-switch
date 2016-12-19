@@ -1,0 +1,6 @@
+/* simple black (inverse) styling */
+
+body {
+color: #ffffff;
+background-color: #000000;
+}
