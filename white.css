@@ -1,5 +1,17 @@
 /* Light colored styling */
+
 body {
 color: #000000;
 background-color: #ffffff;
+}
+
+.text {
+  color: #000000
+}
+
+div {
+  background-color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
