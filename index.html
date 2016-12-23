@@ -9,9 +9,20 @@
         <title>Evo CSS Switch</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="bootstrap-grid.css">
-        <link rel="stylesheet" href="white.css">
+		
+		
+        
+		<!-- Place css here with unique title like "style1,style2,style3....." and with class="new" to toggle through all styles -->
+		<link rel="stylesheet" type="text/css" href="white.css" title="style1" class="new" media="screen" />
+		<link rel="stylesheet" type="text/css" href="black.css" title="style2" class="new" media="screen" />
+		
+		
+		
+		<link rel="stylesheet" href="bootstrap-grid.css">
+		
+		<!-- This style sheet is for toggle buttom -->
+		<link rel="stylesheet" href="view.css">
+		
 
 <style>
 </style>
@@ -25,16 +36,40 @@
   <div class="row">
     <div class="col-xs-12">
 
-<h1>Here is text.</h1>
+<!-- toggle button start -->
+<div class="pspec-checkbox-container" id="pspec-toggle-outlines-container">
+        <input type="checkbox" id="pspec-toggle-outlines" name="pspec-toggle-outlines" class="pspec-toggle round-corners input-text" checked="">
+      <label id="pspec-specs-toggle" class="pspec-toggle-label pspec-switch pspec-switch--green" for="pspec-toggle-outlines"></label>
+ </div>
+ <!-- toggle button End -->
+ 
+<h1 id='toggler'>Here is text.</h1>
 
-    </div>
-  </div>
+	  
+    </div><!-- col-xs-12 -->
+  </div><!-- row -->
 </section>
 
 </main>
 
 <!-- link to external scripts here if needed -->
+<script src="jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
+<!-- link to toggle scripts -->	
+	<script src="stylesheetToggle.js"></script>
         <script>
+$.stylesheetInit();
+   
+// This code loops through the stylesheets when you click the link with
+// an ID of "toggler" below.
+$("#pspec-toggle-outlines").bind(
+ "click",
+ function(e)
+ {
+  $.stylesheetToggle("slow");
+ }
+);
         </script>
     </body>
 </html>
