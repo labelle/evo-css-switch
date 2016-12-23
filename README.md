@@ -1,10 +1,9 @@
 # evo-css-switch
-A theme switcher. Swaps out css stye sheets.
-if you want to add more styles to switch append 
+UI toggle theme switcher that toggles between two CSS style sheet links.
 
+If you want to add more styles to the switch, append this CSS styles sheet:
 <link rel="stylesheet" type="text/css" href="<styleheet path>" title="style1" class="new" media="screen" />
 
-to css styles list.
-
+For a bootstrap toggle version, check out [Bootstrap CSS Switch](https://github.com/labelle/bootstrap-css-switch).
 
 
