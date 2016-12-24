@@ -23,11 +23,11 @@ You will need the following code snippets in your your HTML documents.
 Include this in the document head, where your CSS style sheets would go.
 
 ```html
-		<!-- Place css here with unique title like "style1,style2,style3....." and with class="new" to toggle through all styles -->
-		<link rel="stylesheet" type="text/css" href="white.css" title="style1" class="new" media="screen" />
-		<link rel="stylesheet" type="text/css" href="black.css" title="style2" class="new" media="screen" />
-		<!-- This style sheet is for toggle buttom -->
-		<link rel="stylesheet" href="view.css">
+<!-- Place css here with unique title like "style1,style2,style3....." and with class="new" to toggle through all styles -->
+<link rel="stylesheet" type="text/css" href="white.css" title="style1" class="new" media="screen" />
+<link rel="stylesheet" type="text/css" href="black.css" title="style2" class="new" media="screen" />
+<!-- This style sheet is for toggle buttom -->
+<link rel="stylesheet" href="view.css">
 ```
 
 Include this in the document body, where your HTML markup would go.
