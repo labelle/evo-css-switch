@@ -1,5 +1,6 @@
 # evo-css-switch
 A nifty little UI toggle theme switcher that toggles between two CSS style sheet links.
+
 [Demo](https://labelle.github.io/evo-css-switch/).
 
 For a bootstrap toggle version, check out [Bootstrap CSS Switch](https://github.com/labelle/bootstrap-css-switch).
