@@ -1,12 +1,8 @@
 # evo-css-switch
-UI toggle theme switcher that toggles between two CSS style sheet links.
+A nifty little UI toggle theme switcher that toggles between two CSS style sheet links.
+[Demo](https://labelle.github.io/evo-css-switch/).
+
 For a bootstrap toggle version, check out [Bootstrap CSS Switch](https://github.com/labelle/bootstrap-css-switch).
-
-If you want to add more styles to the switch, append this CSS style sheet.
-
-```html
-<link rel="stylesheet" type="text/css" href="<styleheet path>" title="style1" class="new" media="screen" />
-```
 
 ## documentation
 
@@ -20,7 +16,7 @@ If you find any glitches or have ideas for improvements, please submit a Github 
 
 You will need the following code snippets in your your HTML documents.
 
-Include this in the document head, where your CSS style sheets would go.
+CSS links, for the document head.
 
 ```html
 <!-- Place css here with unique title like "style1,style2,style3....." and with class="new" to toggle through all styles -->
@@ -30,7 +26,13 @@ Include this in the document head, where your CSS style sheets would go.
 <link rel="stylesheet" href="view.css">
 ```
 
-Include this in the document body, where your HTML markup would go.
+If you want to add more styles to the switch, append this CSS style sheet.
+
+```html
+<link rel="stylesheet" type="text/css" href="<styleheet path>" title="style1" class="new" media="screen" />
+```
+
+HTML markup, for the document body.
 
 ```html
 <!-- toggle button start -->
@@ -43,7 +45,7 @@ Include this in the document body, where your HTML markup would go.
 <h1 id='toggler'>Here is text.</h1>
 ```
 
-Include this at the very bottom of the document body, where your script tags would go.
+Scripts, at the bottom of the document body.
 
 ```html
 
