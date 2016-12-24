@@ -12,7 +12,7 @@ If you want to add more styles to the switch, append this CSS style sheet.
 
 In addition to this README file, you'll find helpful 'comments' sprinkled throughout the HTML, CSS, and JavaScript files.
 
-## conribution
+## contribution
 
 If you find any glitches or have ideas for improvements, please submit a Github issue or pull request.
 
