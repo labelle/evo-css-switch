@@ -8,6 +8,14 @@ If you want to add more styles to the switch, append this CSS style sheet.
 <link rel="stylesheet" type="text/css" href="<styleheet path>" title="style1" class="new" media="screen" />
 ```
 
+## documentation
+
+In addition to this README file, you'll find helpful 'comments' sprinkled throughout the HTML, CSS, and JavaScript files.
+
+## conribution
+
+If you find any glitches or have ideas for improvements, please submit a Github issue or pull request.
+
 ## usage
 
 You will need the following code snippets in your your HTML documents.
