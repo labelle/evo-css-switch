@@ -10,9 +10,9 @@ If you want to add more styles to the switch, append this CSS style sheet.
 
 ## usage
 
-In your HTML document, place the following code as instructed...
+You will need the following code snippets in your your HTML documents.
 
-The document head, where your CSS style sheets would go.
+Include this in the document head, where your CSS style sheets would go.
 
 ```html
 		<!-- Place css here with unique title like "style1,style2,style3....." and with class="new" to toggle through all styles -->
@@ -22,7 +22,7 @@ The document head, where your CSS style sheets would go.
 		<link rel="stylesheet" href="view.css">
 ```
 
-The document body, where your HTML markup would go.
+Include this in the document body, where your HTML markup would go.
 
 ```html
 <!-- toggle button start -->
@@ -35,7 +35,7 @@ The document body, where your HTML markup would go.
 <h1 id='toggler'>Here is text.</h1>
 ```
 
-The very bottom of the document body, where your script tags would go.
+Include this at the very bottom of the document body, where your script tags would go.
 
 ```html
 
