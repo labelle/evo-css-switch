@@ -5,6 +5,8 @@ A nifty little UI toggle theme switcher that toggles between two CSS style sheet
 
 For a bootstrap toggle version, check out [Bootstrap CSS Switch](https://github.com/labelle/bootstrap-css-switch).
 
+For a pulldown menu CSS theme switcher, check out [Evo CSS Pulldown] (https://github.com/labelle/evo-css-pulldown).
+
 ## documentation
 
 In addition to this README file, you'll find helpful 'comments' sprinkled throughout the HTML, CSS, and JavaScript files.
